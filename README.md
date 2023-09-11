@@ -10,7 +10,7 @@
 </div>
 
  <h6><p align="center">
-    OsintTube is an <i>Easy-to-Use</i> YouTube <i>OSINT</i> Tool</a>
+    <a href="redkatz.github.io/osinttube">OsintTube</a> is an <i>Easy-to-Use</i> YouTube <i>OSINT</i> Tool</a>
 </p></h6>
 
 <p align="center">
