@@ -50,6 +50,7 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
   - `python3 main.py <id>`
 
 ### Get the user id
+---
 
 1. open the youtube channel of the targert
 2. go to the _information_ section
@@ -57,5 +58,25 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 
 ![](image/getid.png)
 
-
+### Supported system ⌨
 ---
+
+|  work on   | Yes | No |
+|-------|:-----------:|:-----------:|
+| Ubuntu      |   X      |           |
+| Arch        |     X      |           |
+| Void        |       X    |           |           
+| Debian      |     X      |           |          
+| Kali        |     X      |           |          
+| Termux      |     X      |           |      
+<br>
+
+<h3><p align="center">Issues and Suggestions</p></h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RedKatz/SocialMediaHackingToolkit/main/images/issues.gif" alt=""/>
+</p>
+
+If you have encountered an issue with OsintTube or would like to suggest an improvement, please report it in our [Issues section](https://github.com/RedKatz/OsintTube/issues).<br> Please provide as much detail as possible about the issue or suggestion so that we can resolve or implement it as soon as possible.<br> <b>Thank you for your contribution!</b>
+
+<br>
