@@ -24,7 +24,7 @@
 
 Disclaimer: **FOR EDUCATIONAL PURPOSES ONLY! The contributors bear no responsibility for the tool's usage.**
 
-### Toold and Commands 💻
+### Tool and Commands 💻
 
 ---
 
