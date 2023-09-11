@@ -31,7 +31,8 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 - vidnumber     :Get the total number of channel videos
 - subnumber     :Get the number of subscribers 
 - views         :Get the total number of channel views
-- views         :Get the channell join date
+- joindate      :Get the channel join date
+- category      :Get the channel categoty
 - earnings      :Get the estimated value of the channel's earnings in one month
 - target <id>   :Set a new target
 ```
