@@ -4,7 +4,7 @@
 
 
 
-  <img src="https://img.shields.io/badge/release-v0.3.2-green" alt=""/> <img src="https://img.shields.io/badge/license-GPLv3-blue" alt=""/><img src="https://img.shields.io/badge/written in-python-red" alt=""/>
+  <img src="https://img.shields.io/badge/release-v0.3.2-green" alt=""/> <img src="https://img.shields.io/badge/license-GPLv3-blue" alt=""/> <img src="https://img.shields.io/badge/written in-python-red" alt=""/>
  <h6>
     <a href="redkatz.github.io/osinttube">OsintTube</a> is an <i>Easy-to-Use</i> YouTube <i>OSINT</i> Tool</a>
 </h6>
