@@ -48,7 +48,7 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 - Navigate to the directory
   - `cd OsintTube`
 - Install the requirements
-  - `pip3 install requirements.txt`
+  - `pip3 install -r requirements.txt`
 - Run the program
   - `python3 main.py <id>`
 
