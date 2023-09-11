@@ -14,9 +14,9 @@
 </p></h6>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v0.3.2-ed2304" alt=""/>
+  <img src="https://img.shields.io/badge/release-v0.3.2-green" alt=""/>
+  <img src="https://img.shields.io/badge/license-GPLv3-blue" alt=""/>
   <img src="https://img.shields.io/badge/written in-python-ed2304" alt=""/>
-  <img src="https://img.shields.io/badge/author-RedKatz-ed2304" alt=""/>
 </p><p align="center">
   <img src="image/presentation.png">
 </p>
