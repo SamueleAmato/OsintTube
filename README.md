@@ -54,6 +54,13 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 - Run the program
   - `python3 main.py`
 
-### Get user id
+### Get the user id
+
+1. open the youtube channel of the targert
+2. go to the _information_ section
+3. click on the arrow at the bottom and click on copy id
+
+![](image/getid.png)
+
 
 ---
