@@ -37,7 +37,7 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 - earnings      :Get the estimated value of the channel's earnings in one month
 - target <id>   :Set a new target
 ```
-[**Latest version**]() | [Website]()
+[**Latest version**](https://github.com/RedKatz/OsintTube/releases/tag/v0.0.1) | [Website](httpsredkatz.github.io/osinttube)
 
 ### Installation ⚙️
 
