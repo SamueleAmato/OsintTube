@@ -9,13 +9,7 @@
     <a href="redkatz.github.io/osinttube">OsintTube</a> is an <i>Easy-to-Use</i> YouTube <i>OSINT</i> Tool</a>
 </h6>
 
-  <a href="#installation">[Installation](https://github.com/RedKatz/OsintTube#Installation-⚙️)</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#usage">[Usage](https://github.com/RedKatz/OsintTube#Tool-and-Commands-💻)
-</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tested-on">[Work on]()</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 
 </p><p align="center">
