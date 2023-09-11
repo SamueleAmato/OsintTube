@@ -20,6 +20,19 @@ def IsId(id):
     else:
         return False
 
+def save_text(testo, nome_file, cartella_output):
+    # Componi il percorso completo del file
+    percorso_file = os.path.join(cartella_output, nome_file)
+
+        # Verifica se la cartella di output esiste, altrimenti la crea
+    if not os.path.exists(cartella_output):
+        os.makedirs(cartella_output)
+
+    # Apre il file in modalità scrittura ('w' sta per write)
+    with open(percorso_file, 'w') as file:
+        # Scrive il testo nel file
+        file.write(testo)
+    print(f"\n[Info saved in {percorso_file}]")
 
 ascii_art = bcolors.FAIL+r'''
    ___      _       _  _____      _          
@@ -49,6 +62,8 @@ command_list = f'''
 - earnings      :{bcolors.GREY}Get the estimated value of the channel's earnings in one month{bcolors.ENDC}
 - target <id>   :{bcolors.GREY}Set a new target{bcolors.ENDC}'''
 
+save = ""
+
 def main(id):
     if IsId(id) == False:
         exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/redkatz/OsintTube")
@@ -67,28 +82,57 @@ def main(id):
 
         elif command == "description" or command == "desc":
             print("\n"+InformationGathering.youtube_description(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_description(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
         elif command == "earnings" or command == "earn":
             print("\n"+InformationGathering.youtube_estimate_earnings(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_estimate_earnings(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "joindate":
             print("\n"+InformationGathering.youtube_channel_join_date(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_channel_join_date(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "vidnumber":
             print("\n"+InformationGathering.youtube_video_count(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_video_count(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "location":
             print("\n"+InformationGathering.youtube_channel_location(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_channel_location(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "category":
             print("\n"+InformationGathering.youtube_channel_category(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_channel_category(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "subnumber":
             print("\n"+InformationGathering.youtube_subscriber_count(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_subscriber_count(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "views":
             print("\n"+InformationGathering.youtube_video_views_count(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_video_views_count(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif command == "duration":
             print("\n"+InformationGathering.youtube_video_duration(id))
+            if save == "y":
+                save_text(InformationGathering.youtube_video_duration(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+
         elif "target" in command.split(" "):
             id = command.split(" ")[1]
             os.system("clear")
             print(ascii_art)
             print(menu)
             print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+        elif "FILE" in command.split("="):
+            save = command.split("=")[1]
+            print("\nInfo saving = "+save)
 
         else:
             print("\ncommand not found tipe list")
