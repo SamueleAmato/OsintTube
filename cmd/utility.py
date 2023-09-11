@@ -62,9 +62,9 @@ command_list = f'''
 - earnings      :{bcolors.GREY}Get the estimated value of the channel's earnings in one month{bcolors.ENDC}
 - target <id>   :{bcolors.GREY}Set a new target{bcolors.ENDC}'''
 
-save = ""
 
 def main(id):
+    save = ""
     if IsId(id) == False:
         exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/redkatz/OsintTube")
     print(ascii_art)
@@ -83,46 +83,46 @@ def main(id):
         elif command == "description" or command == "desc":
             print("\n"+InformationGathering.youtube_description(id))
             if save == "y":
-                save_text(InformationGathering.youtube_description(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_description(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
         elif command == "earnings" or command == "earn":
             print("\n"+InformationGathering.youtube_estimate_earnings(id))
             if save == "y":
-                save_text(InformationGathering.youtube_estimate_earnings(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_estimate_earnings(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "joindate":
             print("\n"+InformationGathering.youtube_channel_join_date(id))
             if save == "y":
-                save_text(InformationGathering.youtube_channel_join_date(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_channel_join_date(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "vidnumber":
             print("\n"+InformationGathering.youtube_video_count(id))
             if save == "y":
-                save_text(InformationGathering.youtube_video_count(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_video_count(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "location":
             print("\n"+InformationGathering.youtube_channel_location(id))
             if save == "y":
-                save_text(InformationGathering.youtube_channel_location(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_channel_location(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "category":
             print("\n"+InformationGathering.youtube_channel_category(id))
             if save == "y":
-                save_text(InformationGathering.youtube_channel_category(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_channel_category(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "subnumber":
             print("\n"+InformationGathering.youtube_subscriber_count(id))
             if save == "y":
-                save_text(InformationGathering.youtube_subscriber_count(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_subscriber_count(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "views":
             print("\n"+InformationGathering.youtube_video_views_count(id))
             if save == "y":
-                save_text(InformationGathering.youtube_video_views_count(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_video_views_count(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif command == "duration":
             print("\n"+InformationGathering.youtube_video_duration(id))
             if save == "y":
-                save_text(InformationGathering.youtube_video_duration(id), InformationGathering.youtube_username(id)+"_"+InformationGathering.youtube_username(id), InformationGathering.youtube_username(id))
+                save_text(InformationGathering.youtube_video_duration(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
 
         elif "target" in command.split(" "):
             id = command.split(" ")[1]
