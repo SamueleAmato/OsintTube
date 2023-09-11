@@ -22,4 +22,4 @@
 </p>
 <br>
 
-Disclaimer:**FOR EDUCATIONAL PURPOSES ONLY! The contributors bear no responsibility for the tool's usage.**
+Disclaimer: **FOR EDUCATIONAL PURPOSES ONLY! The contributors bear no responsibility for the tool's usage.**
