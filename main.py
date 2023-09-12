@@ -35,7 +35,7 @@ try:
             print("\n"+InformationGathering.youtube_channel_join_date(id))
             if save == "y":
                 save_text(InformationGathering.youtube_estimate_earnings(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
-    if IsId(id) == False:
+    if utility.IsId(id) == False:
         exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/redkatz/OsintTube")
     print(ascii_art)
     print(menu)
