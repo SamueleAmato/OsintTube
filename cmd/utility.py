@@ -16,7 +16,7 @@ class bcolors:
 
 
 
-def utility.IsId(id):
+def IsId(id):
     if len(id) == 24:
         return True
     else:
