@@ -9,7 +9,7 @@ try:
     save = ""
     if utility.IsId(id) == False:
         exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/redkatz/OsintTube")
-    print(ascii_art)
+    print(utility.ascii_art)
     print(menu)
     print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
     while True:
@@ -18,9 +18,9 @@ try:
             print(command_list)
         elif command == "clear":
             os.system("clear")
-            print(ascii_art)
-            print(menu)
-            print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+            print(utility.ascii_art)
+            print(utility.menu)
+            print(utility.bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
 
         elif command == "description" or command == "desc":
             print("\n"+InformationGathering.youtube_description(id))
@@ -37,18 +37,18 @@ try:
                 save_text(InformationGathering.youtube_estimate_earnings(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
     if utility.IsId(id) == False:
         exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/redkatz/OsintTube")
-    print(ascii_art)
-    print(menu)
-    print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+    print(utility.ascii_art)
+    print(utility.menu)
+    print(utility.bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
     while True:
         command = input(bcolors.FAIL+"\n Run a command: "+bcolors.ENDC)
         if command == "list":
             print(command_list)
         elif command == "clear":
             os.system("clear")
-            print(ascii_art)
-            print(menu)
-            print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+            print(utility.ascii_art)
+            print(utility.menu)
+            print(utility.bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
 
         elif command == "description" or command == "desc":
             print("\n"+InformationGathering.youtube_description(id))
@@ -97,9 +97,9 @@ try:
         elif "target" in command.split(" "):
             id = command.split(" ")[1]
             os.system("clear")
-            print(ascii_art)
-            print(menu)
-            print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+            print(utility.ascii_art)
+            print(utility.menu)
+            print(utility.bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
         elif "FILE" in command.split("="):
             save = command.split("=")[1]
             print("\nInfo saving = "+save)
@@ -138,9 +138,9 @@ try:
         elif "target" in command.split(" "):
             id = command.split(" ")[1]
             os.system("clear")
-            print(ascii_art)
-            print(menu)
-            print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+            print(utility.ascii_art)
+            print(utility.menu)
+            print(utility.bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
         elif "FILE" in command.split("="):
             save = command.split("=")[1]
             print("\nInfo saving = "+save)
