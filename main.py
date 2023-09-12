@@ -5,6 +5,8 @@ import sys
 os.system("clear")
 
 bcolors = utility.bcolors
+command_list = utility.command_list
+save_text = utility.save_text
 
 try:
     id = sys.argv[1]
