@@ -1,4 +1,6 @@
 from cmd import InformationGathering
+from cmd import utility
+
 import os
 class bcolors:
     HEADER = '\033[95m'
@@ -14,7 +16,7 @@ class bcolors:
 
 
 
-def IsId(id):
+def utility.IsId(id):
     if len(id) == 24:
         return True
     else:
