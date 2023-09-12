@@ -10,8 +10,8 @@ try:
     if utility.IsId(id) == False:
         exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/redkatz/OsintTube")
     print(utility.ascii_art)
-    print(menu)
-    print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
+    print(utility.menu)
+    print(utility.bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
     while True:
         command = input(bcolors.FAIL+"\n Run a command: "+bcolors.ENDC)
         if command == "list":
