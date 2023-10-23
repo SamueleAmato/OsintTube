@@ -4,10 +4,10 @@
 
 
 
-  <img src="https://img.shields.io/badge/release-v0.0.1-green" alt=""/> <img src="https://img.shields.io/badge/license-GPLv3-blue" alt=""/> <img src="https://img.shields.io/badge/written in-python-red" alt=""/> <a href="https://scrutinizer-ci.com/g/RedKatz/osinttube/"><img src="https://img.shields.io/badge/Code quality-10.00-lightgreen" alt=""/></a> 
+  <img src="https://img.shields.io/badge/release-v0.0.1-green" alt=""/> <img src="https://img.shields.io/badge/license-GPLv3-blue" alt=""/> <img src="https://img.shields.io/badge/written in-python-red" alt=""/> <a href="https://scrutinizer-ci.com/g/SamueleAmato/osinttube/"><img src="https://img.shields.io/badge/Code quality-10.00-lightgreen" alt=""/></a> 
 
  <h6>
-    <a href="redkatz.github.io/osinttube">OsintTube</a> is an <i>Easy-to-Use</i> YouTube <i>OSINT</i> Tool</a>
+    <a href="SamueleAmato.github.io/osinttube">OsintTube</a> is an <i>Easy-to-Use</i> YouTube <i>OSINT</i> Tool</a>
 </h6>
 
 
@@ -38,14 +38,14 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 - earnings      :Get the estimated value of the channel's earnings in one month
 - target <id>   :Set a new target
 ```
-[**Latest version**](https://github.com/RedKatz/OsintTube/releases/tag/v0.0.1) | [Website](httpsredkatz.github.io/osinttube)
+[**Latest version**](https://github.com/SamueleAmato/OsintTube/releases/tag/v0.0.1) | [Website](httpsSamueleAmato.github.io/osinttube)
 
 ### Installation ⚙️
 
 ---
 
 - Clone this repo
-  - `git clone https://github.com/RedKatz/OsintTube`
+  - `git clone https://github.com/SamueleAmato/OsintTube`
 - Navigate to the directory
   - `cd OsintTube`
 - Install the requirements
@@ -78,9 +78,9 @@ OsintTube offers an interactive shell to perform analysis on Youtube account of 
 
 ### Issues and Suggestions
 ---
-<img src="https://raw.githubusercontent.com/RedKatz/SocialMediaHackingToolkit/main/images/issues.gif" alt=""/>
+<img src="https://raw.githubusercontent.com/SamueleAmato/SocialMediaHackingToolkit/main/images/issues.gif" alt=""/>
 
 
-If you have encountered an issue with OsintTube or would like to suggest an improvement, please report it in our [Issues section](https://github.com/RedKatz/OsintTube/issues).<br> Please provide as much detail as possible about the issue or suggestion so that we can resolve or implement it as soon as possible.<br> <b>Thank you for your contribution!</b>
+If you have encountered an issue with OsintTube or would like to suggest an improvement, please report it in our [Issues section](https://github.com/SamueleAmato/OsintTube/issues).<br> Please provide as much detail as possible about the issue or suggestion so that we can resolve or implement it as soon as possible.<br> <b>Thank you for your contribution!</b>
 
 <br>
