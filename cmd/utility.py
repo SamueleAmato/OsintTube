@@ -43,7 +43,7 @@ ascii_art = bcolors.FAIL+r'''
  | |_| \__ \ | | | | |_ | || |_| | |_) |  __/
   \___/|___/_|_| |_|\__||_| \__,_|_.__/ \___|
 
- version 0.0.1 - Developed by RedKatz'''+bcolors.ENDC
+ version 0.0.1 - Developed by SamueleAmato'''+bcolors.ENDC
 
 
 menu = f'''
