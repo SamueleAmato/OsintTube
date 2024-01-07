@@ -12,7 +12,7 @@ try:
     id = sys.argv[1]
     save = ""
     if utility.IsId(id) == False:
-        exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/SamueleAmato/OsintTube")
+        exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/NullPulse/OsintTube")
     print(utility.ascii_art)
     print(utility.menu)
     print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
@@ -40,7 +40,7 @@ try:
             if save == "y":
                 save_text(InformationGathering.youtube_estimate_earnings(id), InformationGathering.youtube_username(id)+"_"+command, InformationGathering.youtube_username(id))
     if utility.IsId(id) == False:
-        exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/SamueleAmato/OsintTube")
+        exit("Error: it seems you entered the username instead of the id, to find out how to get the id visit the documentation --> https://github.com/NullPulse/OsintTube")
     print(utility.ascii_art)
     print(utility.menu)
     print(bcolors.OKGREEN+" Target --> "+bcolors.ENDC+InformationGathering.youtube_username(id))
